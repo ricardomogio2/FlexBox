@@ -53,17 +53,18 @@
 
 .conteudoPrincipal-cursos-link:nth-child(4n+1){
     margin-left: 0;
-}   
+}
 
 .videoSobre .container{
     display: flex;
+    justify-content: space-between;
 }
 
 .videoSobre-sobre{
     text-align: center;
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
+    flex-grow: 10;
 }
 
 .videoSobre-sobre-list{
@@ -89,7 +90,6 @@
     
     .conteudoPrincipal-cursos{
         flex-direction: column;
-        flex-wrap: nowrap;
     }
     
     .conteudoPrincipal-cursos-link{
@@ -120,5 +120,13 @@
 
     .cabecalhoPrincipal-nav-link-app{
         order: -1;
+    }
+
+    .videoSobre .container{
+        flex-direction: column;
+    }
+
+    .videoSobre-video{
+        margin: 0 auto;
     }
 }
